@@ -7,8 +7,8 @@ export default function Home() {
       <div className="lg:flex lg:justify-between lg:gap-4">
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
           <div>
-            <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Weston Clark</h1>
-            <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Full Stack Software Engineer</h2>
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Weston Clark</h1>
+            <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">Full Stack Software Engineer</h2>
             <nav className="nav hidden lg:block">
               <ul className="mt-8 w-max">
                 <li className="group flex items-center py-3 active">
@@ -65,7 +65,7 @@ export default function Home() {
             <li className="mr-5 text-xs">
               <Link href="https://www.linkedin.com/in/westoclark/">
                 <span className="sr-only">LinkedIn</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
                   <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                 </svg>
@@ -76,8 +76,8 @@ export default function Home() {
 
         <main className="pt-12 lg:w-1/2 lg:py-28">
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-black/90 px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-">
+              <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">About</h2>
             </div>
             <p className="mb-4">
               I am a full stack Software Engineer and Audio Engineer based in Portland Oregon. I specialize in building custom tools that break down technical barriers and increase the capacity for
@@ -86,11 +86,11 @@ export default function Home() {
             <p className="mb-4">
               As an audio engineer, I&apos;ve had the privalege of touring all over the world mixng for amazing bands in iconic venues such as Red Rocks, Radio City Music Hall or the Ryan Auditorium.
             </p>
-            <p className="mb-4">When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel</p>
+            <p className="mb-4">When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
           </section>
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-black/90 px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-">
+              <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">Projects</h2>
             </div>
             <p className="mb-4">
               This is the Projects section and this is where I write all about myself and the intresting things you want to know about me his is the About Me section and this is where I write all
