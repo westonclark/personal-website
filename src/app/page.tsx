@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 font-inter">
       <div className="lg:flex lg:justify-between lg:gap-4">
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col  lg:py-24">
           <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Weston Clark</h1>
@@ -27,6 +27,7 @@ export default function Home() {
             </ul>
           </nav>
         </header>
+        
         <main className="pt-24 lg:w-1/2 lg:py-24">
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             <p className="mb-4">
