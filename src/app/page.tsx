@@ -26,11 +26,11 @@ export default function Home() {
                   <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Blog</span>
                 </a>
               </li> */}
-                <li className="group flex items-center py-3 active">
+                {/* <li className="group flex items-center py-3 active">
                   <Link href="Resume.pdf">
                     <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Resume</span>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
@@ -61,14 +61,27 @@ export default function Home() {
                 </svg>
               </Link>
             </li>
+
+            <li className="mr-5 text-xs">
+              <Link href="Resume.pdf">
+                <span className="sr-only">LinkedIn</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                  <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
+                </svg>
+              </Link>
+            </li>
           </ul>
         </header>
 
         <main className="pt-16 lg:w-1/2 lg:py-28">
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+            {/* <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-black/90 px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
+            </div> */}
             <p className="mb-4">
-              I am a full stack Software Engineer and Audio Engineer based in Portland Oregon. I specialize in building custom tools to enhance developer productivity. I am passionate about breaking
-              down technical barriers and increasing the capacity for developers to think creatively.
+              I am a full stack Software Engineer and Audio Engineer based in Portland Oregon. I specialize in building custom tools that break down technical barriers and increase the capacity for
+              developers to think creatively.
             </p>
             <p className="mb-4">
               As an audio engineer, I&apos;ve had the privalege of touring all over the world mixng for amazing bands in iconic venues such as Red Rocks, Radio City Music Hall or the Ryan Auditorium.
@@ -76,13 +89,12 @@ export default function Home() {
             <p className="mb-4">When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel</p>
           </section>
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-black/90 px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
+            </div>
             <p className="mb-4">
               This is the Projects section and this is where I write all about myself and the intresting things you want to know about me his is the About Me section and this is where I write all
               about myself and the intresting things you want to know about me his is the About Me section and this is where I write all about myself and the intresting things you
-            </p>
-            <p className="mb-4">
-              This is the About Me section and this is where I write all about myself and the intresting things you want to know about me his is the About Me section and this is where I write all
-              about myself and the
             </p>
           </section>
         </main>
