@@ -64,7 +64,7 @@ export default function Home() {
           </ul>
         </header>
 
-        <main className="pt-24 lg:w-1/2 lg:py-28">
+        <main className="pt-16 lg:w-1/2 lg:py-28">
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             <p className="mb-4">
               I am a full stack Software Engineer and Audio Engineer based in Portland Oregon. I specialize in building custom tools to enhance developer productivity. I am passionate about breaking
