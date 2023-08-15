@@ -80,7 +80,7 @@ export default function Home() {
               <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">About</h2>
             </div>
             <p className="mb-4">
-              I am a full stack Software Engineer and Audio Engineer based in Portland Oregon. I specialize in building custom tools that break down technical barriers and increase the capacity for
+              I am a full stack Software Engineer/Audio Engineer based in Portland Oregon. I specialize in building custom tools that break down technical barriers and increase the capacity for
               developers to think creatively.
             </p>
             <p className="mb-4">
