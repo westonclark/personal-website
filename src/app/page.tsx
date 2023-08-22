@@ -92,10 +92,7 @@ export default function Home() {
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-">
               <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">Projects</h2>
             </div>
-            <p className="mb-4">
-              This is the Projects section and this is where I write all about myself and the intresting things you want to know about me his is the About Me section and this is where I write all
-              about myself and the intresting things you want to know about me his is the About Me section and this is where I write all about myself and the intresting things you
-            </p>
+            <p className="mb-4"></p>
           </section>
         </main>
       </div>
