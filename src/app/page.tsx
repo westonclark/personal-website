@@ -5,34 +5,34 @@ export default function Home() {
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 font-inter">
       <div className="lg:flex lg:justify-between lg:gap-4">
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:gap-8 lg:py-24">
           <div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Weston Clark</h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">Full Stack Software Engineer</h2>
-            <nav className="nav hidden lg:block">
-              <ul className="mt-8 w-max">
-                <li className="group flex items-center py-3 active">
+            {/* <nav className="nav hidden lg:block"> */}
+            {/* <ul className="mt-8 w-max"> */}
+            {/* <li className="group flex items-center py-3 active">
                   <Link href="#about">
                     <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
                   </Link>
-                </li>
-                <li className="group flex items-center py-3 active">
+                </li> */}
+            {/* <li className="group flex items-center py-3 active">
                   <Link href="#projects">
                     <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
                   </Link>
-                </li>
-                {/* <li className="group flex items-center py-3 active">
+                </li> */}
+            {/* <li className="group flex items-center py-3 active">
                 <a>
                   <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Blog</span>
                 </a>
               </li> */}
-                {/* <li className="group flex items-center py-3 active">
+            {/* <li className="group flex items-center py-3 active">
                   <Link href="Resume.pdf">
                     <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Resume</span>
                   </Link>
                 </li> */}
-              </ul>
-            </nav>
+            {/* </ul> */}
+            {/* </nav> */}
           </div>
           <ul className="ml-1 mt-8 flex items-center">
             <li className="mr-5 text-xs">
