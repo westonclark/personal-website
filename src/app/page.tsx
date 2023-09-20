@@ -80,11 +80,7 @@ export default function Home() {
               <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">About</h2>
             </div>
             <p className="mb-4">
-              I am a full stack Software Engineer/Audio Engineer based in Portland Oregon. I specialize in building custom tools that break down technical barriers and increase the capacity for
-              developers to think creatively.
-            </p>
-            <p className="mb-4">
-              As an audio engineer, I&apos;ve had the privalege of touring all over the world mixng for amazing bands in iconic venues such as Red Rocks, Radio City Music Hall or the Ryan Auditorium.
+              I am a full stack Software Engineer/Audio Engineer based in Portland Oregon. I specialize in building accessable web applications using TypeScript, React, and Node.js/Express.
             </p>
             <p className="mb-4">When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
           </section>
