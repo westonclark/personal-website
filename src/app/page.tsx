@@ -1,51 +1,40 @@
-import Image from 'next/image';
 import Link from 'next/link';
-
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function Home() {
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 font-inter">
       <div className="lg:flex lg:justify-between lg:gap-4">
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:gap-8 lg:py-24">
+        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:gap-4 lg:py-24">
           <div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Weston Clark</h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">Full Stack Software Engineer</h2>
-            {/* <nav className="nav hidden lg:block"> */}
-            {/* <ul className="mt-8 w-max"> */}
-            {/* <li className="group flex items-center py-3 active">
-                  <Link href="#about">
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
-                  </Link>
-                </li> */}
-            {/* <li className="group flex items-center py-3 active">
-                  <Link href="#projects">
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
-                  </Link>
-                </li> */}
-            {/* <li className="group flex items-center py-3 active">
-                <a>
-                  <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Blog</span>
-                </a>
-              </li> */}
-            {/* <li className="group flex items-center py-3 active">
-                  <Link href="Resume.pdf">
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Resume</span>
-                  </Link>
-                </li> */}
-            {/* </ul> */}
-            {/* </nav> */}
-          </div>
-          <ul className="ml-1 mt-8 flex items-center">
-            <li className="mr-5 text-xs">
-              <Link href="https://www.instagram.com/westoclark/">
-                <span className="sr-only">Instagram</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor" className="h-6 w-6" aria-hidden="true">
-                  <path d="M295.42,6c-53.2,2.51-89.53,11-121.29,23.48-32.87,12.81-60.73,30-88.45,57.82S40.89,143,28.17,175.92c-12.31,31.83-20.65,68.19-23,121.42S2.3,367.68,2.56,503.46,3.42,656.26,6,709.6c2.54,53.19,11,89.51,23.48,121.28,12.83,32.87,30,60.72,57.83,88.45S143,964.09,176,976.83c31.8,12.29,68.17,20.67,121.39,23s70.35,2.87,206.09,2.61,152.83-.86,206.16-3.39S799.1,988,830.88,975.58c32.87-12.86,60.74-30,88.45-57.84S964.1,862,976.81,829.06c12.32-31.8,20.69-68.17,23-121.35,2.33-53.37,2.88-70.41,2.62-206.17s-.87-152.78-3.4-206.1-11-89.53-23.47-121.32c-12.85-32.87-30-60.7-57.82-88.45S862,40.87,829.07,28.19c-31.82-12.31-68.17-20.7-121.39-23S637.33,2.3,501.54,2.56,348.75,3.4,295.42,6m5.84,903.88c-48.75-2.12-75.22-10.22-92.86-17-23.36-9-40-19.88-57.58-37.29s-28.38-34.11-37.5-57.42c-6.85-17.64-15.1-44.08-17.38-92.83-2.48-52.69-3-68.51-3.29-202s.22-149.29,2.53-202c2.08-48.71,10.23-75.21,17-92.84,9-23.39,19.84-40,37.29-57.57s34.1-28.39,57.43-37.51c17.62-6.88,44.06-15.06,92.79-17.38,52.73-2.5,68.53-3,202-3.29s149.31.21,202.06,2.53c48.71,2.12,75.22,10.19,92.83,17,23.37,9,40,19.81,57.57,37.29s28.4,34.07,37.52,57.45c6.89,17.57,15.07,44,17.37,92.76,2.51,52.73,3.08,68.54,3.32,202s-.23,149.31-2.54,202c-2.13,48.75-10.21,75.23-17,92.89-9,23.35-19.85,40-37.31,57.56s-34.09,28.38-57.43,37.5c-17.6,6.87-44.07,15.07-92.76,17.39-52.73,2.48-68.53,3-202.05,3.29s-149.27-.25-202-2.53m407.6-674.61a60,60,0,1,0,59.88-60.1,60,60,0,0,0-59.88,60.1M245.77,503c.28,141.8,115.44,256.49,257.21,256.22S759.52,643.8,759.25,502,643.79,245.48,502,245.76,245.5,361.22,245.77,503m90.06-.18a166.67,166.67,0,1,1,167,166.34,166.65,166.65,0,0,1-167-166.34"></path>
-                </svg>
-              </Link>
-            </li>
 
+            {/* NAVIGATION */}
+            <nav className="nav hidden lg:block">
+              <ul className="mt-8 w-max">
+                <li>
+                  <Link href="#about" className="group flex items-center py-3 active">
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-500 group-focus-visible:text-slate-200">About</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#experience" className="group flex items-center py-3 active">
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-500 group-focus-visible:text-slate-200">Experience</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#projects" className="group flex items-center py-3 active">
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-500 group-focus-visible:text-slate-200">Projects</span>
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          {/* LINK ICONS */}
+          <ul className="ml-1 mt-8 flex items-center">
             <li className="mr-5 text-xs">
               <Link href="https://github.com/westonclark">
                 <span className="sr-only">GitHub</span>
@@ -65,6 +54,15 @@ export default function Home() {
             </li>
 
             <li className="mr-5 text-xs">
+              <Link href="https://www.instagram.com/westoclark/">
+                <span className="sr-only">Instagram</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor" className="h-6 w-6" aria-hidden="true">
+                  <path d="M295.42,6c-53.2,2.51-89.53,11-121.29,23.48-32.87,12.81-60.73,30-88.45,57.82S40.89,143,28.17,175.92c-12.31,31.83-20.65,68.19-23,121.42S2.3,367.68,2.56,503.46,3.42,656.26,6,709.6c2.54,53.19,11,89.51,23.48,121.28,12.83,32.87,30,60.72,57.83,88.45S143,964.09,176,976.83c31.8,12.29,68.17,20.67,121.39,23s70.35,2.87,206.09,2.61,152.83-.86,206.16-3.39S799.1,988,830.88,975.58c32.87-12.86,60.74-30,88.45-57.84S964.1,862,976.81,829.06c12.32-31.8,20.69-68.17,23-121.35,2.33-53.37,2.88-70.41,2.62-206.17s-.87-152.78-3.4-206.1-11-89.53-23.47-121.32c-12.85-32.87-30-60.7-57.82-88.45S862,40.87,829.07,28.19c-31.82-12.31-68.17-20.7-121.39-23S637.33,2.3,501.54,2.56,348.75,3.4,295.42,6m5.84,903.88c-48.75-2.12-75.22-10.22-92.86-17-23.36-9-40-19.88-57.58-37.29s-28.38-34.11-37.5-57.42c-6.85-17.64-15.1-44.08-17.38-92.83-2.48-52.69-3-68.51-3.29-202s.22-149.29,2.53-202c2.08-48.71,10.23-75.21,17-92.84,9-23.39,19.84-40,37.29-57.57s34.1-28.39,57.43-37.51c17.62-6.88,44.06-15.06,92.79-17.38,52.73-2.5,68.53-3,202-3.29s149.31.21,202.06,2.53c48.71,2.12,75.22,10.19,92.83,17,23.37,9,40,19.81,57.57,37.29s28.4,34.07,37.52,57.45c6.89,17.57,15.07,44,17.37,92.76,2.51,52.73,3.08,68.54,3.32,202s-.23,149.31-2.54,202c-2.13,48.75-10.21,75.23-17,92.89-9,23.35-19.85,40-37.31,57.56s-34.09,28.38-57.43,37.5c-17.6,6.87-44.07,15.07-92.76,17.39-52.73,2.48-68.53,3-202.05,3.29s-149.27-.25-202-2.53m407.6-674.61a60,60,0,1,0,59.88-60.1,60,60,0,0,0-59.88,60.1M245.77,503c.28,141.8,115.44,256.49,257.21,256.22S759.52,643.8,759.25,502,643.79,245.48,502,245.76,245.5,361.22,245.77,503m90.06-.18a166.67,166.67,0,1,1,167,166.34,166.65,166.65,0,0,1-167-166.34"></path>
+                </svg>
+              </Link>
+            </li>
+
+            <li className="mr-5 text-xs">
               <Link href="Resume.pdf">
                 <span className="sr-only">Resume</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -76,39 +74,117 @@ export default function Home() {
           </ul>
         </header>
 
-        <main className="pt-12 lg:w-1/2 lg:py-28">
+        <main className="pt-16 lg:w-1/2 lg:py-24">
           {/* ABOUT ME */}
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg- px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-inherit">
               <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">About</h2>
             </div>
-            <p className="mb-4">
-              I am a Full Stack Software Engineer based in Portland Oregon. I build web applications in TypeScript, React, and Node.js and mobile apps using React Native and Expo.
-            </p>
-            <p className="mb-4">When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
+            <div>
+              <p className="mb-4">
+                I&apos;m a Full Stack Software Engineer based in Portland Oregon. I build web applications in TypeScript, React, and Node.js and mobile apps using React Native and Expo.
+              </p>
+              <p>When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
+            </div>
           </section>
+
           {/* EXPERIENCE */}
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-inherit px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
               <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">Experience</h2>
             </div>
             <div>
               <ol className="group/list">
                 <li className="mb-12">
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Card Title</CardTitle>
-                      <CardDescription>Card Description</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Card Content</p>
-                    </CardContent>
-                    <CardFooter>
-                      <p>Card Footer</p>
-                    </CardFooter>
-                  </Card>
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block bg-slate-50 lg:group-hover:bg-slate-200/20 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Feb 2023 — Present</header>
+                    <div className="z-10 sm:col-span-6">
+                      <h3 className="font-medium leading-snug text-slate-200">
+                        <div>
+                          <Link
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-800 hover:text-slate-600 focus-visible:text-teal-300  group/link text-base"
+                            href="https://www.watch-dogs.io/"
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            Software Engineer · <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                            <span>Watchdogs.io</span>
+                          </Link>
+                        </div>
+                      </h3>
+
+                      <p className="mt-2 text-sm leading-normal">
+                        Developed the AWS Lambda Observability Tool, leveraging modern React practices like hooks and context for real-time visualization of Lambda performance data through interactive
+                        charts and tables.
+                      </p>
+
+                      <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">TypeScript</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">React</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Chart.js</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Node.js</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Express</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">MongoDB</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </li>
-                <li className="mb-12"></li>
+
+                <li className="mb-12">
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block bg-slate-50 lg:group-hover:bg-slate-200/20 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Jan 2013 — Feb 2023</header>
+                    <div className="z-10 sm:col-span-6">
+                      <h3 className="font-medium leading-snug text-slate-200">
+                        <div>
+                          <Link
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-800 hover:text-slate-600 focus-visible:text-teal-300  group/link text-base"
+                            href="https://open.spotify.com/playlist/2TrlJn4BcZQ1PihCPDFEO3?si=68cc5fb732664851"
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            Audio Engineer ·<span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                            <span>Weston Clark Mixing LLC</span>
+                          </Link>
+                        </div>
+                      </h3>
+
+                      <p className="mt-2 text-sm leading-normal">Provided audio recording and mixing services for bands including studio recordings, live concerts, and festivals of all sizes.</p>
+
+                      <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Avid Consoles</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Meyer Sound</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">D&B</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">ProTools</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Tape Recording</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
               </ol>
             </div>
           </section>
