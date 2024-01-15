@@ -80,8 +80,7 @@ export default function Home() {
               <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">About</h2>
             </div>
             <p className="mb-4">
-              I am a Full Stack Software/Audio Engineer based in Portland Oregon. I build fullstack web applications in TypeScript, React, and Node.js along with mobile apps using React Native and
-              Expo.
+              I am a Full Stack Software Engineer based in Portland Oregon. I build web applications in TypeScript, React, and Node.js and mobile apps using React Native and Expo.
             </p>
             <p className="mb-4">When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
           </section>
