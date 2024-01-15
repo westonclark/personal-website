@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+
 export default function Home() {
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 font-inter">
@@ -75,6 +77,7 @@ export default function Home() {
         </header>
 
         <main className="pt-12 lg:w-1/2 lg:py-28">
+          {/* ABOUT ME */}
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-">
               <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">About</h2>
@@ -84,11 +87,30 @@ export default function Home() {
             </p>
             <p className="mb-4">When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
           </section>
+          {/* EXPERIENCE */}
           <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 bg-">
-              <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">Projects</h2>
+              <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">Experience</h2>
             </div>
-            <p className="mb-4"></p>
+            <div>
+              <ol className="group/list">
+                <li className="mb-12">
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Card Title</CardTitle>
+                      <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                      <p>Card Footer</p>
+                    </CardFooter>
+                  </Card>
+                </li>
+                <li className="mb-12"></li>
+              </ol>
+            </div>
           </section>
         </main>
       </div>
