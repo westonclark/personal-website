@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 font-inter">
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-36 lg:py-0 font-inter">
       <div className="lg:flex lg:justify-between lg:gap-4">
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:gap-4 lg:py-24">
           <div>
@@ -120,22 +120,22 @@ export default function Home() {
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">TypeScript</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">TypeScript</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">React</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">React</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Chart.js</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Chart.js</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Node.js</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Node.js</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Express</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Express</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">MongoDB</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">MongoDB</div>
                         </li>
                       </ul>
                     </div>
@@ -164,22 +164,22 @@ export default function Home() {
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
+                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Avid Consoles</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Avid Consoles</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Meyer Sound</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Meyer Sound</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">D&B</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">D&B</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">ProTools</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">ProTools</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Tape Recording</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Tape Recording</div>
                         </li>
                       </ul>
                     </div>
