@@ -164,7 +164,7 @@ export default function Home() {
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-600 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
+                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
                         </li>
                         <li className="mr-1.5 mt-2">
                           <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Avid Consoles</div>
