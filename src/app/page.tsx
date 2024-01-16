@@ -82,7 +82,8 @@ export default function Home() {
             </div>
             <div>
               <p className="mb-4">
-                I&apos;m a Full Stack Software Engineer based in Portland Oregon. I build web applications in TypeScript, React, and Node.js and mobile apps using React Native and Expo.
+                I&apos;m a Full Stack Software Engineer based in Portland Oregon. My specialty is building web applications and mobile apps using{' '}
+                <span className="text-teal-600">TypeScript , React.js, Node.js, React Native</span> and <span className="text-teal-600">Expo</span>.
               </p>
               <p>When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
             </div>
@@ -97,7 +98,7 @@ export default function Home() {
               <ol className="group/list">
                 <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block bg-slate-50 lg:group-hover:bg-slate-200/20 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block bg-slate-50 lg:group-hover:bg-slate-50/20 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                     <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Feb 2023 — Present</header>
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-slate-200">
@@ -120,22 +121,22 @@ export default function Home() {
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">TypeScript</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">TypeScript</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">React</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">React</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Chart.js</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Chart.js</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Node.js</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Node.js</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Express</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Express</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">MongoDB</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">MongoDB</div>
                         </li>
                       </ul>
                     </div>
@@ -144,7 +145,7 @@ export default function Home() {
 
                 <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block bg-slate-50 lg:group-hover:bg-slate-200/20 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block bg-slate-50 lg:group-hover:bg-slate-50/20 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                     <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Jan 2013 — Feb 2023</header>
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-slate-200">
@@ -164,22 +165,22 @@ export default function Home() {
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Avid Consoles</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Avid Consoles</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Meyer Sound</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Meyer Sound</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">D&B</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">D&B</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800 ">ProTools</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">ProTools</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-400 bg-teal-300/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Tape Recording</div>
+                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Tape Recording</div>
                         </li>
                       </ul>
                     </div>
