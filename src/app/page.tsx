@@ -83,8 +83,7 @@ export default function Home() {
             <div>
               <p className="mb-4">
                 I&apos;m a Full Stack Software Engineer based in Portland Oregon. My specialty is building web applications and mobile apps using{' '}
-                <span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">TypeScript, React.js, Node.js, React Native</span> and{' '}
-                <span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">Expo</span>.
+                <span className="font-medium text-teal-400">TypeScript, React.js, Node.js, React Native</span> and <span className="font-medium text-teal-400 ">Expo</span>.
               </p>
               <p>When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
             </div>
