@@ -6,28 +6,28 @@ export default function Home() {
       <div className="lg:flex lg:justify-between lg:gap-4">
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:gap-4 lg:py-24">
           <div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Weston Clark</h1>
-            <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">Full Stack Software Engineer</h2>
+            <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Weston Clark</h1>
+            <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Full Stack Software Engineer</h2>
 
             {/* NAVIGATION */}
             <nav className="nav hidden lg:block">
               <ul className="mt-8 w-max">
                 <li>
                   <Link href="#about" className="group flex items-center py-3 active">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-800 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-800 group-focus-visible:text-slate-200">About</span>
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
                   </Link>
                 </li>
                 <li>
                   <Link href="#experience" className="group flex items-center py-3 active">
                     <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-800 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-800 group-focus-visible:text-slate-200">Experience</span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span>
                   </Link>
                 </li>
                 <li>
                   <Link href="#projects" className="group flex items-center py-3 active">
                     <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-800 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-800 group-focus-visible:text-slate-200">Projects</span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
                   </Link>
                 </li>
               </ul>
@@ -103,7 +103,7 @@ export default function Home() {
                       <h3 className="font-medium leading-snug text-slate-200">
                         <div>
                           <Link
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-800 hover:text-slate-600 focus-visible:text-teal-300  group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                             href="https://www.watch-dogs.io/"
                             target="_blank"
                             rel="noreferrer noopener">
@@ -120,22 +120,22 @@ export default function Home() {
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">TypeScript</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">TypeScript</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">React</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Chart.js</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Chart.js</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Node.js</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Node.js</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Express</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Express</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">MongoDB</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">MongoDB</div>
                         </li>
                       </ul>
                     </div>
@@ -150,7 +150,7 @@ export default function Home() {
                       <h3 className="font-medium leading-snug text-slate-200">
                         <div>
                           <Link
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-800 hover:text-slate-600 focus-visible:text-teal-300  group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                             href="https://open.spotify.com/playlist/2TrlJn4BcZQ1PihCPDFEO3?si=68cc5fb732664851"
                             target="_blank"
                             rel="noreferrer noopener">
@@ -164,22 +164,22 @@ export default function Home() {
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">DiGiCo</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">DiGiCo</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Avid Consoles</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Avid Consoles</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Meyer Sound</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Meyer Sound</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">D&B</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">D&B</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">ProTools</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">ProTools</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full border border-slate-300 bg-teal-200/20 px-3 py-1 text-xs font-medium leading-5 text-slate-800">Tape Recording</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Tape Recording</div>
                         </li>
                       </ul>
                     </div>
