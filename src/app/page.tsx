@@ -14,20 +14,20 @@ export default function Home() {
               <ul className="mt-8 w-max">
                 <li>
                   <Link href="#about" className="group flex items-center py-3 active">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-500 group-focus-visible:text-slate-200">About</span>
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-800 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-800 group-focus-visible:text-slate-200">About</span>
                   </Link>
                 </li>
                 <li>
                   <Link href="#experience" className="group flex items-center py-3 active">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-500 group-focus-visible:text-slate-200">Experience</span>
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-800 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-800 group-focus-visible:text-slate-200">Experience</span>
                   </Link>
                 </li>
                 <li>
                   <Link href="#projects" className="group flex items-center py-3 active">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-500 group-focus-visible:text-slate-200">Projects</span>
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-800 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-800 group-focus-visible:text-slate-200">Projects</span>
                   </Link>
                 </li>
               </ul>
@@ -82,8 +82,7 @@ export default function Home() {
             </div>
             <div>
               <p className="mb-4">
-                I&apos;m a Full Stack Software Engineer based in Portland Oregon. My specialty is building web applications and mobile apps using{' '}
-                <span className="text-teal-600">TypeScript , React.js, Node.js, React Native</span> and <span className="text-teal-600">Expo</span>.
+                I&apos;m a Full Stack Software Engineer based in Portland Oregon. My specialty is building web applications and mobile apps using TypeScript , React.js, Node.js, React Native and Expo.
               </p>
               <p>When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
             </div>
