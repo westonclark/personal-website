@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-40 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:gap-4 lg:py-24">
           <div>
@@ -13,7 +13,7 @@ export default function Home() {
             <nav className="nav hidden lg:block">
               <ul className="mt-8 w-max">
                 <li>
-                  <Link href="#about" className="group flex items-center py-3 active">
+                  <Link href="#about-me" className="group flex items-center py-3 active">
                     <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                     <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
                   </Link>
@@ -76,21 +76,25 @@ export default function Home() {
 
         <main className="pt-16 lg:w-1/2 lg:py-24">
           {/* ABOUT ME */}
-          <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+          <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" id="about-me">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-inherit px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
               <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
             </div>
             <div>
               <p className="mb-4">
-                I&apos;m a Full Stack Software Engineer based in Portland Oregon. My specialty is building web applications and mobile apps using{' '}
-                <span className="font-medium text-teal-400">TypeScript, React.js, Node.js, React Native</span> and <span className="font-medium text-teal-400 ">Expo</span>.
+                I&apos;m a Full Stack Software Engineer and Audio Engineer based in Portland, OR. My specialty is building web applications and mobile apps using{' '}
+                <span className="font-medium text-teal-500">TypeScript, React.js, Node.js, React Native</span> and <span className="font-medium text-teal-500 ">Expo</span>.
               </p>
-              <p>When I&apos;m not coding, you can find me recording and producing music or deep in the latest fantasy novel.</p>
+              <p className="mb-4">
+                I am also very passionate about building Audio Effect Pluings in <span className="font-medium text-teal-500">C++</span> with the <span className="font-medium text-teal-500">JUCE</span>{' '}
+                framework.
+              </p>
+              <p>When I&apos;m not coding, you can find me writing and recording music, playing Dungeouns & Dragons, or deep in the latest Stephen King novel.</p>
             </div>
           </section>
 
           {/* EXPERIENCE */}
-          <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+          <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" id="experience">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-inherit px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
               <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
             </div>
@@ -108,8 +112,8 @@ export default function Home() {
                             href="https://www.watch-dogs.io/"
                             target="_blank"
                             rel="noreferrer noopener">
-                            Software Engineer · <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>Watchdogs.io</span>
+                            Software Engineer · Watchdogs.io
+                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           </Link>
                         </div>
                       </h3>
@@ -145,7 +149,7 @@ export default function Home() {
 
                 <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block  lg:group-hover:bg-slate-50/10 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block  lg:group-hover:bg-slate-50/10 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg borderborder-teal-700"></div>
                     <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Jan 2013 — Feb 2023</header>
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-slate-200">
@@ -155,8 +159,8 @@ export default function Home() {
                             href="https://open.spotify.com/playlist/2TrlJn4BcZQ1PihCPDFEO3?si=68cc5fb732664851"
                             target="_blank"
                             rel="noreferrer noopener">
-                            Audio Engineer ·<span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>Weston Clark Mixing LLC</span>
+                            Audio Engineer · Weston Clark Mixing
+                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           </Link>
                         </div>
                       </h3>
@@ -168,7 +172,7 @@ export default function Home() {
                           <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">DiGiCo</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Avid Consoles</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Avid</div>
                         </li>
                         <li className="mr-1.5 mt-2">
                           <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Meyer Sound</div>
@@ -180,7 +184,102 @@ export default function Home() {
                           <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">ProTools</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Tape Recording</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Analog Tape</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </section>
+
+          {/* Projects */}
+          <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" id="projects">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-inherit px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
+            </div>
+            <div>
+              <ol className="group/list">
+                <li className="mb-12">
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block  lg:group-hover:bg-slate-50/10 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"></header>
+                    <div className="z-10 sm:col-span-6">
+                      <h3 className="font-medium leading-snug text-slate-200">
+                        <div>
+                          <Link
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                            href="https://digital-hippo-production-baaa.up.railway.app/"
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            Digital Hippo<span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          </Link>
+                        </div>
+                      </h3>
+
+                      <p className="mt-2 text-sm leading-normal">
+                        Full Stack digital marketplace built with Next.js. Includes an admin dashboard, email verification, full cart functionality, and a checkout system with the Stripe API.
+                      </p>
+
+                      <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Next.js</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Payload CMS</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React Email</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Stripe API</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">shadcn/ui</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">PostgreSQL</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li className="mb-12">
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block  lg:group-hover:bg-slate-50/10 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"></header>
+                    <div className="z-10 sm:col-span-6">
+                      <h3 className="font-medium leading-snug text-slate-200">
+                        <div>
+                          <Link
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                            href="https://github.com/westonclark/SimpleEQ"
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            Simple EQ<span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          </Link>
+                        </div>
+                      </h3>
+
+                      <p className="mt-2 text-sm leading-normal">
+                        Digital Audio EQ plugin with high low pass filters and a fully parametric band. Compiles down to RTAS, AAX, and VST formats natively.
+                      </p>
+
+                      <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">C++</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JUCE</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Audio DSP</div>
+                        </li>
+
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">CMake</div>
                         </li>
                       </ul>
                     </div>
