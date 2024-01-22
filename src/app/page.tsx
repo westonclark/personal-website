@@ -119,8 +119,8 @@ export default function Home() {
                       </h3>
 
                       <p className="mt-2 text-sm leading-normal">
-                        Developed the AWS Lambda Observability Tool, leveraging modern React practices like hooks and context for real-time visualization of Lambda performance data through interactive
-                        charts and tables.
+                        Lead development of the AWS Lambda Observability Tool to provide real-time visualizations of Lambda performance data such as function invocations, runtime, throttles, and error
+                        logs.
                       </p>
 
                       <ul className="mt-2 flex flex-wrap">
@@ -150,7 +150,7 @@ export default function Home() {
                 <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block  lg:group-hover:bg-slate-50/10 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg borderborder-teal-700"></div>
-                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Jan 2013 — Feb 2023</header>
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Jan 2019 — Feb 2023</header>
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-slate-200">
                         <div>
@@ -159,13 +159,15 @@ export default function Home() {
                             href="https://open.spotify.com/playlist/2TrlJn4BcZQ1PihCPDFEO3?si=68cc5fb732664851"
                             target="_blank"
                             rel="noreferrer noopener">
-                            Audio Engineer · Weston Clark Mixing
+                            Audio Software Engineer · Weston Clark Mixing
                             <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           </Link>
                         </div>
                       </h3>
 
-                      <p className="mt-2 text-sm leading-normal">Provided audio recording and mixing services for bands including studio recordings, live concerts, and festivals of all sizes.</p>
+                      <p className="mt-2 text-sm leading-normal">
+                        Provided technical support services for live concert venues including the programming of distributed audio system, lighting and video programming, and user interface design.
+                      </p>
 
                       <ul className="mt-2 flex flex-wrap">
                         <li className="mr-1.5 mt-2">
@@ -184,7 +186,57 @@ export default function Home() {
                           <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">ProTools</div>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Analog Tape</div>
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Q-SYS</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">C++</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li className="mb-12">
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block  lg:group-hover:bg-slate-50/10 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg borderborder-teal-700"></div>
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Jan 2018 — Jan 2019</header>
+                    <div className="z-10 sm:col-span-6">
+                      <h3 className="font-medium leading-snug text-slate-200">
+                        <div>
+                          <Link
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                            href="https://www.ajesuschurch.org/"
+                            target="_blank"
+                            rel="noreferrer noopener">
+                            Technical Director · Westside AJC
+                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          </Link>
+                        </div>
+                      </h3>
+
+                      <p className="mt-2 text-sm leading-normal">
+                        Oversaw technical department for a church of 5,000 memebrs, managing, scheduling, and training a team of 50 technical staff and volenteers to ensure proper staffing for live
+                        events.
+                      </p>
+
+                      <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Creative Design</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Planning Center</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Scheduling</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Budgeting</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Technical Training</div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Troubleshooting</div>
                         </li>
                       </ul>
                     </div>
