@@ -89,7 +89,7 @@ export default function Home() {
                 I am also very passionate about building Audio Effect Plugins in <span className="font-medium text-teal-500">C++</span> with the <span className="font-medium text-teal-500">JUCE</span>{' '}
                 framework.
               </p>
-              <p>When I&apos;m not coding, you can find me writing and recording music, playing Dungeons\ & Dragons, or deep in the latest Stephen King novel.</p>
+              <p>When I&apos;m not coding, you can find me writing and recording music, playing Dungeons & Dragons, or deep in the latest Stephen King novel.</p>
             </div>
           </section>
 
