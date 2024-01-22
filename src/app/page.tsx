@@ -166,7 +166,7 @@ export default function Home() {
                       </h3>
 
                       <p className="mt-2 text-sm leading-normal">
-                        Provided technical support services for live concert venues including the programming of distributed audio system, lighting and video programming, and user interface design.
+                        Provided technical support services for live concert venues including the programming of distributed audio systems, lighting and video programming, and user interface design.
                       </p>
 
                       <ul className="mt-2 flex flex-wrap">
