@@ -215,7 +215,7 @@ export default function Home() {
                       </h3>
 
                       <p className="mt-2 text-sm leading-normal">
-                        Oversaw technical department for a church of 5,000 memebrs, managing, scheduling, and training a team of 50 technical staff and volenteers to ensure proper staffing for live
+                        Oversaw technical department for a church of 5,000 members, managing, scheduling, and training a team of 50 technical staff and volunteers to ensure proper staffing for live
                         events.
                       </p>
 
