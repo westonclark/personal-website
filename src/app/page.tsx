@@ -86,10 +86,10 @@ export default function Home() {
                 <span className="font-medium text-teal-500">TypeScript, React.js, Node.js, React Native</span> and <span className="font-medium text-teal-500 ">Expo</span>.
               </p>
               <p className="mb-4">
-                I am also very passionate about building Audio Effect Plugins in <span className="font-medium text-teal-500">C++</span> with the <span className="font-medium text-teal-500">JUCE</span>{' '}
+                I am also passionate about building Audio Effect Plugins in <span className="font-medium text-teal-500">C++</span> with the <span className="font-medium text-teal-500">JUCE</span>{' '}
                 framework.
               </p>
-              <p>When I&apos;m not coding, you can find me writing and recording music, playing Dungeons & Dragons, or deep in the latest Stephen King novel.</p>
+              <p>When I&apos;m not coding, you can find me writing and recording music, playing Dungeons & Dragons, or buried deep in the latest Stephen King novel.</p>
             </div>
           </section>
 
@@ -166,7 +166,7 @@ export default function Home() {
                       </h3>
 
                       <p className="mt-2 text-sm leading-normal">
-                        Provided technical support services for live concert venues including the programming of distributed audio systems, lighting and video programming, and user interface design.
+                        Designed user interfaces and backend logic for distributed audio systems and provided audio networking and programming services for live concerts.
                       </p>
 
                       <ul className="mt-2 flex flex-wrap">
