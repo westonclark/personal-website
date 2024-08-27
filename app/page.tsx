@@ -186,7 +186,7 @@ export default function Component() {
                         target="_blank"
                         rel="noreferrer noopener"
                       >
-                        Watchdogs.io
+                        Watchdogs
                       </Link>
                     </CardTitle>
                     <CardDescription>Software Engineer</CardDescription>
@@ -194,10 +194,10 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      Led the front end development of a web application,
-                      designed charts to display Lambda performace data. Worked
-                      with designers and product managers to translate technical
-                      requirements into web components.
+                      Designed and built a REST API complete with a Redis cache.
+                      Integrated Cloudwatch logs via the AWS SDK for real time
+                      monitoring of Lambda metrics. Oversaw containerisation and
+                      deployment on Heroku.
                     </p>
                   </CardContent>
                 </Card>
