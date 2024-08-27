@@ -64,38 +64,38 @@ export default function Component() {
           </nav>
           <div className="sm:hidden">
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+              <DropdownMenuTrigger>
                 <MenuIcon className="h-6 w-6" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-screen">
-                <DropdownMenuItem>
+              <DropdownMenuContent className="w-screen mt-4">
+                <DropdownMenuItem asChild>
                   <Link
                     href="#"
-                    className="group flex items-center justify-center py-3 active w-full font-medium"
+                    className="group flex items-center justify-center py-3 active w-full font-large text-xl"
                   >
                     About
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                <DropdownMenuItem asChild>
                   <Link
                     href="#experience"
-                    className="group flex items-center justify-center py-3 active w-full font-medium"
+                    className="group flex items-center justify-center py-3 active w-full font-medium text-xl"
                   >
                     Experience
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                <DropdownMenuItem asChild>
                   <Link
                     href="#projects"
-                    className="group flex items-center justify-center py-3 active w-full font-medium"
+                    className="group flex items-center justify-center py-3 active w-full font-medium text-xl"
                   >
                     Projects
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                <DropdownMenuItem asChild>
                   <Link
                     href="#contact"
-                    className="group flex items-center justify-center py-3 active w-full font-medium"
+                    className="group flex items-center justify-center py-3 active w-full font-medium text-xl"
                   >
                     Contact
                   </Link>
@@ -115,7 +115,7 @@ export default function Component() {
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                 Weston Clark
               </h1>
-              <h2 className="text-2xl font-medium text-muted-foreground sm:text-3xl">
+              <h2 className="text-xl font-medium text-muted-foreground sm:text-3xl">
                 Software Engineer
               </h2>
               <p className="text-muted-foreground md:text-lg">
