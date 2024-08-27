@@ -132,7 +132,7 @@ export default function Component() {
             <Image
               src="/sushi-cat.jpg"
               alt="John Doe"
-              className="hidden md:block mx-auto rounded-full"
+              className="hidden mx-auto rounded-full"
               width="400"
               height="400"
               style={{ aspectRatio: "400/400", objectFit: "cover" }}
