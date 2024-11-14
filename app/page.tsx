@@ -62,12 +62,12 @@ export default function Component() {
               Contact
             </Link>
           </nav>
-          <div className="sm:hidden">
+          {/* <div className="sm:hidden">
             <DropdownMenu>
               <DropdownMenuTrigger>
                 <MenuIcon className="h-6 w-6" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-screen mt-4">
+              <DropdownMenuContent className="w-screen mt-4 bg-background">
                 <DropdownMenuItem asChild>
                   <Link
                     href="#"
@@ -102,7 +102,7 @@ export default function Component() {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-          </div>
+          </div> */}
         </div>
       </header>
       <main className="flex-1">
