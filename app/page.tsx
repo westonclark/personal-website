@@ -26,7 +26,7 @@ import {
 export default function Component() {
   return (
     <div className="flex min-h-[100dvh] flex-col">
-      <header className="bg-background py-4 shadow-sm px-6 lg:px-36 sticky top-0 z-20">
+      <header className="bg-background py-4 shadow-sm px-6 lg:px-36 sticky top-0 z-20 border-b">
         <div className="container flex items-center justify-between">
           <Link href="#" className="flex items-center gap-2" prefetch={false}>
             <CodeIcon className="h-6 w-6" />
@@ -303,8 +303,8 @@ export default function Component() {
                     <p className="text-muted-foreground">
                       A mobile app written in Swift. The app allows users to
                       easily integrate the iPhone microphone and its built in
-                      compression effects into thier studio recording workflow
-                      with near zero latency.
+                      compression effects into a studio recording workflow
+                      with zero latency.
                     </p>
                   </CardContent>
                   <CardFooter>
