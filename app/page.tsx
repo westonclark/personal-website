@@ -130,7 +130,7 @@ export default function Component() {
               </p>
             </div>
             <Image
-              src="/sushi-cat.jpg"
+              src="/space-cat.png"
               alt="John Doe"
               className="hidden mx-auto rounded-full"
               width="400"
@@ -172,8 +172,8 @@ export default function Component() {
                   <CardContent>
                     <p className="text-muted-foreground">
                         Maintained back-end infrastructure including REST APIs,
-                        databases, and internal CLIs using Node.js, Go, MySQL, Docker, and
-                        Kubernetes. Collaborated with cross-functional teams to
+                        databases, and internal CLIs using Node.js, Go, MySQL, Docker, and Kubernetes.
+                        Collaborated with cross-functional teams to
                         deliver high-quality software solutions.
                     </p>
                   </CardContent>
@@ -194,7 +194,7 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      Designed and built the main api and caching system.
+                      Designed and built the core api and caching system.
                       Integrated with AWS Cloudwatch logs for real time
                       monitoring of Lambda metrics. Oversaw the containerisation and
                       deployment of application on Heroku.
@@ -239,7 +239,7 @@ export default function Component() {
                   Projects
                 </h2>
                 <p className="mt-4 text-muted-foreground md:text-lg">
-                  Check out some projects that I&apos;ve created.
+                  Check out some of the projects that I&apos;ve made.
                 </p>
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -252,8 +252,11 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      Full Stack digital marketplace built with Next.js, Paylaod
-                      CMS, and MongoDB. Includes an admin dashboard, email
+                      Full Stack digital marketplace built with
+                      Next.js,
+                      Paylaod CMS, and
+                      MongoDB.
+                      Includes an admin dashboard, email
                       verification, and full payment processing powered by Stripe.
                     </p>
                   </CardContent>
@@ -379,13 +382,13 @@ export default function Component() {
             &copy; 2024 Weston Clark.
           </p>
           <div className="flex items-center space-x-4">
-            <Link
+            {/* <Link
               href="#"
               className="text-muted-foreground hover:text-foreground"
               prefetch={false}
             >
               <PdfIcon className="h-6 w-6" />
-            </Link>
+            </Link> */}
             <Link
               href="https://www.linkedin.com/in/westoclark/"
               className="text-muted-foreground hover:text-foreground"
