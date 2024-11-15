@@ -194,7 +194,7 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      Designed and built the core api and caching system.
+                      Designed and built the main API and caching system.
                       Integrated with AWS Cloudwatch logs for real time
                       monitoring of Lambda metrics. Oversaw the containerisation and
                       deployment of application on Heroku.
