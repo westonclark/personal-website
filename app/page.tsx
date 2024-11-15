@@ -171,10 +171,10 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      Developed and maintained web servers, REST apis, and
-                      shared infrastructure using Node.js, MySQL, Docker, and
-                      Kubernetes. Collaborated with cross-functional teams to
-                      deliver high-quality software solutions.
+                        Maintained back-end infrastructure including REST APIs,
+                        databases, and internal CLIs using Node.js, Go, MySQL, Docker, and
+                        Kubernetes. Collaborated with cross-functional teams to
+                        deliver high-quality software solutions.
                     </p>
                   </CardContent>
                 </Card>
@@ -194,10 +194,10 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      Designed and built a REST API complete with a Redis cache.
-                      Integrated Cloudwatch logs via the AWS SDK for real time
-                      monitoring of Lambda metrics. Oversaw containerisation and
-                      deployment on Heroku.
+                      Designed and built the main api and caching system.
+                      Integrated with AWS Cloudwatch logs for real time
+                      monitoring of Lambda metrics. Oversaw the containerisation and
+                      deployment of application on Heroku.
                     </p>
                   </CardContent>
                 </Card>
@@ -218,7 +218,7 @@ export default function Component() {
                   <CardContent>
                     <p className="text-muted-foreground">
                       Designed and installed custom audio infrastructure for
-                      live concert venues and recording studios. Collaborated
+                      live venues and recording studios. Collaborated
                       with clients and engineers to troubleshoot and optimize
                       audio systems.
                     </p>
@@ -254,7 +254,7 @@ export default function Component() {
                     <p className="text-muted-foreground">
                       Full Stack digital marketplace built with Next.js, Paylaod
                       CMS, and MongoDB. Includes an admin dashboard, email
-                      verification system, and payment system powered by Stripe.
+                      verification, and full payment processing powered by Stripe.
                     </p>
                   </CardContent>
                   <CardFooter>
@@ -277,10 +277,10 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      A desktop application built with C++ and the JUCE
-                      framework. The application allows users to control the
-                      volume of mulitple faders in thier recording software
-                      using the Qwerty keyboard.
+                    A desktop application written in C++ and JUCE.
+                    The application enables users to control multiple
+                    faders within their recording software
+                    utilizing only the Qwerty keyboard.
                     </p>
                   </CardContent>
                   <CardFooter>
@@ -301,10 +301,10 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      A mobile app written in Swift. The app allows users to
-                      easily integrate the iPhone microphone and its built in
-                      compression effects into a studio recording workflow
-                      with zero latency.
+                    A mobile app developed in Swift that enables
+                    users to seamlessly integrate their iPhone’s built-in
+                    mic and its compression effects into a studio
+                    recording workflow, with zero latency.
                     </p>
                   </CardContent>
                   <CardFooter>
